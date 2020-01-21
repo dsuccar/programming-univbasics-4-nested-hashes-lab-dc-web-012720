@@ -86,7 +86,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-	 
+
 
 
 end
@@ -107,6 +107,7 @@ def changing_alan
           :languages => ["C"]
         }
      }
+		 changing_alan[:alan_kay][:known_for] = alans_new_info
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
 
