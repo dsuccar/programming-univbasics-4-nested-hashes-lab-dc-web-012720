@@ -16,7 +16,7 @@ def hopper
         }
      }
 
-hopper = programmer_hash[:grace_hopper][:known_for]["COBOL"]
+programmer_hash[:grace_hopper][:known_for] = "COBOL"
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
